@@ -1,0 +1,135 @@
+/* main styles */
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+}
+
+footer {
+}
+
+#header {
+    position: fixed;
+    height: 25px;
+    top: 0;
+    width: 100%;
+    background-color:#006699;
+    color:white;
+    text-align:center;
+    padding:3px;
+}
+#navigation {
+    position: fixed;
+    top: 25px;
+    background-color:#e1eef4;
+    height:25px;
+    width:100%;
+    padding:3px; 
+}
+#status {
+    line-height:20px;
+    background-color:#e1eef4;
+    position: fixed;
+    bottom: 25px;
+    height: 25px;
+    width: 100%;
+    padding:3px;
+}
+#view {
+border: 1px solid;
+border-color: #e1eef4;
+    padding:3px;
+    position: absolute;
+    top: 75px;
+    bottom: 75px;
+    width: 100%;
+    background-color:#ffffff;
+}
+#footer {
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    width: 100%;
+    background-color:#006699;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:3px; 
+}
+
+h1 {
+    line-height: 30px;
+    font-size: 0.85em;
+    font-weight: bold;
+    font-family:inherit;
+    color: #555;
+    text-align: center;
+    text-shadow: 0 1px white;
+}
+
+.container {
+/*    border: 1px solid; */
+    margin: 50px auto;
+    width: 640px;
+}
+ 
+.login {
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: #5f5f47;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    width: 310px;
+}
+
+.login p.submit {
+    text-align: right;
+}
+
+.login p {
+  margin: 20px 0 0;
+}
+
+.login p:first-child {
+  margin-top: 0;
+}
+ 
+.login input[type=text], .login input[type=password] {
+  width: 278px;
+}
+
+#ttt { position: relative; z-index: 9999; }
+
+.ui-menu {     overflow: hidden; }
+.ui-menu .ui-menu {    overflow: visible !important;}
+.ui-menu > li {     float: left;    display: block;    width: auto !important;}
+.ui-menu ul li {    display:block;    float:none;}
+.ui-menu ul li ul {    left:120px !important;    width:100%;}
+.ui-menu ul li ul li {    width:auto;}
+.ui-menu ul li ul li a {    float:left;}
+.ui-menu > li {    margin: 5px 5px !important;    padding: 0 0 !important;}
+.ui-menu > li > a {     float: left;    display: block;    clear: both;    overflow: hidden;}
+.ui-menu .ui-menu-icon {     margin-top: 0.3em !important;}
+.ui-menu .ui-menu .ui-menu li {     float: left;    display: block;}
+.testnav li a:hover{background-color:#ccc;}
+#navigator{position:relative;}
+#nav {
+  overflow : hidden;
+ }
+#nav > li {
+  float : left;
+  /*width : 100px !important;*/
+}
+#nav .ui-menu {
+  width : 54px;
+}
+

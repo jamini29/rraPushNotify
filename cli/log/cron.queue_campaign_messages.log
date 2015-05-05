@@ -1,0 +1,4 @@
+PHP Warning:  mysql_connect(): В соединении отказано in /home/jamini/projects/push_notify/cli/queue_campaign_messages.php on line 18
+PHP Fatal error:  Call to undefined function cli_dielog() in /home/jamini/projects/push_notify/cli/queue_campaign_messages.php on line 19
+PHP Warning:  mysql_connect(): В соединении отказано in /home/jamini/projects/push_notify/cli/queue_campaign_messages.php on line 18
+PHP Fatal error:  Call to undefined function cli_dielog() in /home/jamini/projects/push_notify/cli/queue_campaign_messages.php on line 19
